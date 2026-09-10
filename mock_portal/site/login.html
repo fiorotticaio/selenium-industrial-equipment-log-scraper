@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MaintPortal Legacy - Login</title>
+</head>
+<body>
+    <h1>MaintPortal Legacy System</h1>
+    <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <button type="button" id="loginButton" onclick="doLogin()">Login</button>
+        <p id="loginError" style="color:red; display:none;">Invalid credentials</p>
+    </form>
+
+    <script>
+        function doLogin() {
+            var user = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+            // Toy client-side auth check purely to simulate a gated legacy portal.
+            if (user === 'demo_engineer' && pass === 'Tractian2024') {
+                sessionStorage.setItem('authenticated', 'true');
+                window.location.href = 'dashboard_page1.html';
+            } else {
+                document.getElementById('loginError').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

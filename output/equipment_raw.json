@@ -1,0 +1,119 @@
+[
+  {
+    "equipment_id": "EQX-1042",
+    "status": "OPERATIONAL",
+    "last_maintenance_raw": "2024-03-15",
+    "next_due_raw": "2024-09-15",
+    "specs_raw": "Power: 50kW; Voltage: 480V; Type: Induction Motor",
+    "location": "Plant A - Line 3",
+    "source_page": 1
+  },
+  {
+    "equipment_id": "EQX-1043",
+    "status": "under_maintenance",
+    "last_maintenance_raw": "15/01/2024",
+    "next_due_raw": "15/07/2024",
+    "specs_raw": "Power: 12kW; Voltage: 220V; Type: Conveyor Drive",
+    "location": "Plant A - Line 1",
+    "source_page": 1
+  },
+  {
+    "equipment_id": "EQX-1044",
+    "status": "Operational",
+    "last_maintenance_raw": "March 2, 2024",
+    "next_due_raw": "September 2, 2024",
+    "specs_raw": "Power: 75kW; Voltage: 480V; Type: Compressor",
+    "location": "Plant B - Bay 2",
+    "source_page": 1
+  },
+  {
+    "equipment_id": "EQX-1045",
+    "status": "OFFLINE",
+    "last_maintenance_raw": null,
+    "next_due_raw": null,
+    "specs_raw": "Power: 30kW; Voltage: 380V; Type: Pump",
+    "location": "Plant A - Line 2",
+    "source_page": 1
+  },
+  {
+    "equipment_id": "EQX-1046",
+    "status": "operational",
+    "last_maintenance_raw": "2024-02-28",
+    "next_due_raw": "2024-08-28",
+    "specs_raw": "Power: 5kW; Voltage: 220V; Type: Sensor Array",
+    "location": "Plant C - Zone 1",
+    "source_page": 1
+  },
+  {
+    "equipment_id": "EQX-1047",
+    "status": "Under Maintenance",
+    "last_maintenance_raw": "01-04-2024",
+    "next_due_raw": "01-10-2024",
+    "specs_raw": "Power: 90kW; Voltage: 480V; Type: Hydraulic Press",
+    "location": "Plant B - Bay 4",
+    "source_page": 2
+  },
+  {
+    "equipment_id": "EQX-1044",
+    "status": "Operational",
+    "last_maintenance_raw": "March 2, 2024",
+    "next_due_raw": "September 2, 2024",
+    "specs_raw": "Power: 75kW; Voltage: 480V; Type: Compressor",
+    "location": "Plant B - Bay 2",
+    "source_page": 2
+  },
+  {
+    "equipment_id": "EQX-1048",
+    "status": "OPERATIONAL",
+    "last_maintenance_raw": "2024-04-10",
+    "next_due_raw": "2024-10-10",
+    "specs_raw": "Power: 18kW; Type: Conveyor Drive",
+    "location": "Plant A - Line 3",
+    "source_page": 2
+  },
+  {
+    "equipment_id": "EQX-1049",
+    "status": "decommissioned",
+    "last_maintenance_raw": "2023-11-01",
+    "next_due_raw": "N/A",
+    "specs_raw": "Power: 60kW; Voltage: 480V; Type: Compressor",
+    "location": "Plant B - Bay 1",
+    "source_page": 2
+  },
+  {
+    "equipment_id": "EQX-1050",
+    "status": "Operational",
+    "last_maintenance_raw": "10/05/2024",
+    "next_due_raw": "10/11/2024",
+    "specs_raw": "Power: 22kW; Voltage: 380V; Type: Pump",
+    "location": "Plant C - Zone 2",
+    "source_page": 2
+  },
+  {
+    "equipment_id": "EQX-1051",
+    "status": "OPERATIONAL",
+    "last_maintenance_raw": "2024-05-20",
+    "next_due_raw": "2024-11-20",
+    "specs_raw": "Power: 45kW; Voltage: 480V; Type: Induction Motor",
+    "location": "Plant A - Line 4",
+    "source_page": 3
+  },
+  {
+    "equipment_id": "EQX-1052",
+    "status": "under_maintenance",
+    "last_maintenance_raw": "May 22, 2024",
+    "next_due_raw": "November 22, 2024",
+    "specs_raw": "Power: 8kW; Voltage: 220V; Type: Sensor Array",
+    "location": "Plant C - Zone 1",
+    "source_page": 3
+  },
+  {
+    "equipment_id": "EQX-1042",
+    "status": "OPERATIONAL",
+    "last_maintenance_raw": "2024-03-15",
+    "next_due_raw": "2024-09-15",
+    "specs_raw": "Power: 50kW; Voltage: 480V; Type: Induction Motor",
+    "location": "Plant A - Line 3",
+    "source_page": 3
+  }
+]

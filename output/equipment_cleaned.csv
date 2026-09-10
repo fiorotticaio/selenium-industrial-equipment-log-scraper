@@ -1,0 +1,12 @@
+equipment_id,status,last_maintenance_date,next_due_date,equipment_type,power_kw,voltage_v,location,needs_review,source_page
+EQX-1042,operational,2024-03-15,2024-09-15,Induction Motor,50,480.0,Plant A - Line 3,False,1
+EQX-1043,under_maintenance,2024-01-15,2024-07-15,Conveyor Drive,12,220.0,Plant A - Line 1,False,1
+EQX-1044,operational,2024-03-02,2024-09-02,Compressor,75,480.0,Plant B - Bay 2,False,1
+EQX-1045,offline,,,Pump,30,380.0,Plant A - Line 2,True,1
+EQX-1046,operational,2024-02-28,2024-08-28,Sensor Array,5,220.0,Plant C - Zone 1,False,1
+EQX-1047,under_maintenance,2024-01-04,2024-01-10,Hydraulic Press,90,480.0,Plant B - Bay 4,False,2
+EQX-1048,operational,2024-04-10,2024-10-10,Conveyor Drive,18,,Plant A - Line 3,False,2
+EQX-1049,decommissioned,2023-11-01,,Compressor,60,480.0,Plant B - Bay 1,False,2
+EQX-1050,operational,2024-05-10,2024-11-10,Pump,22,380.0,Plant C - Zone 2,False,2
+EQX-1051,operational,2024-05-20,2024-11-20,Induction Motor,45,480.0,Plant A - Line 4,False,3
+EQX-1052,under_maintenance,2024-05-22,2024-11-22,Sensor Array,8,220.0,Plant C - Zone 1,False,3

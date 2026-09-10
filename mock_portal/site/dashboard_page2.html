@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MaintPortal Legacy - Equipment Log (Page 2)</title>
+</head>
+<body>
+
+    <script>
+        if (sessionStorage.getItem('authenticated') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
+
+    <h1>Equipment &amp; Maintenance Log</h1>
+    <p>Page 2 of 3</p>
+    <table id="equipmentTable">
+        <thead>
+            <tr>
+                <th>Equipment ID</th>
+                <th>Status</th>
+                <th>Last Maintenance</th>
+                <th>Next Due</th>
+                <th>Technical Specs</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        <tr class="equip-row">
+            <td class="equip-id">EQX-1047</td>
+            <td class="status">Under Maintenance</td>
+            <td class="last-maint">01-04-2024</td>
+            <td class="next-due">01-10-2024</td>
+            <td class="specs" data-specs="Power: 90kW; Voltage: 480V; Type: Hydraulic Press">
+                <span class="specs-tooltip">Power: 90kW; Voltage: 480V; Type: Hydraulic Press</span>
+            </td>
+            <td class="location">Plant B - Bay 4</td>
+        </tr>
+
+        <tr class="equip-row">
+            <td class="equip-id">EQX-1044</td>
+            <td class="status">Operational</td>
+            <td class="last-maint">March 2, 2024</td>
+            <td class="next-due">September 2, 2024</td>
+            <td class="specs" data-specs="Power: 75kW; Voltage: 480V; Type: Compressor">
+                <span class="specs-tooltip">Power: 75kW; Voltage: 480V; Type: Compressor</span>
+            </td>
+            <td class="location">Plant B - Bay 2</td>
+        </tr>
+
+        <tr class="equip-row">
+            <td class="equip-id">EQX-1048</td>
+            <td class="status">OPERATIONAL</td>
+            <td class="last-maint">2024-04-10</td>
+            <td class="next-due">2024-10-10</td>
+            <td class="specs" data-specs="Power: 18kW; Type: Conveyor Drive">
+                <span class="specs-tooltip">Power: 18kW; Type: Conveyor Drive</span>
+            </td>
+            <td class="location">Plant A - Line 3</td>
+        </tr>
+
+        <tr class="equip-row">
+            <td class="equip-id">EQX-1049</td>
+            <td class="status">decommissioned</td>
+            <td class="last-maint">2023-11-01</td>
+            <td class="next-due">N/A</td>
+            <td class="specs" data-specs="Power: 60kW; Voltage: 480V; Type: Compressor">
+                <span class="specs-tooltip">Power: 60kW; Voltage: 480V; Type: Compressor</span>
+            </td>
+            <td class="location">Plant B - Bay 1</td>
+        </tr>
+
+        <tr class="equip-row">
+            <td class="equip-id">EQX-1050</td>
+            <td class="status">Operational</td>
+            <td class="last-maint">10/05/2024</td>
+            <td class="next-due">10/11/2024</td>
+            <td class="specs" data-specs="Power: 22kW; Voltage: 380V; Type: Pump">
+                <span class="specs-tooltip">Power: 22kW; Voltage: 380V; Type: Pump</span>
+            </td>
+            <td class="location">Plant C - Zone 2</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="pagination">
+        <a href="dashboard_page1.html" id="prevPage">&laquo; Prev</a>
+        <span id="currentPage">2</span>
+        <a href="dashboard_page3.html" id="nextPage">Next &raquo;</a>
+    </div>
+    <p><a href="login.html" onclick="sessionStorage.removeItem('authenticated')">Logout</a></p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+selenium>=4.15.0
+pandas>=2.0.0
+
+# Selenium 4.6+ ships "Selenium Manager", which auto-detects your
+# installed Chrome/Chromium and downloads a matching chromedriver at
+# runtime -- no manual driver management needed. If you're on an older
+# Selenium or a locked-down environment where Selenium Manager can't
+# reach the network, uncomment the line below and use
+# webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# in scraper.py's build_driver() instead.
+# webdriver-manager>=4.0.0
