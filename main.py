@@ -25,7 +25,7 @@ import time
 from data_cleaner import clean_pipeline
 from scraper import records_to_dicts, scrape_all_pages
 
-logger = logging.getLogger("tractian_scraper")
+logger = logging.getLogger("company_scraper")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE_DIR = os.path.join(HERE, "mock_portal", "site")
@@ -33,7 +33,7 @@ OUTPUT_DIR = os.path.join(HERE, "output")
 PORT = 8000
 
 LOGIN_USERNAME = "demo_engineer"
-LOGIN_PASSWORD = "Tractian2024"
+LOGIN_PASSWORD = "company2024"
 
 
 def _serve_mock_site(port: int) -> socketserver.TCPServer:

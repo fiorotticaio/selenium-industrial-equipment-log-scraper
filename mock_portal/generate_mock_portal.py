@@ -41,7 +41,7 @@ LOGIN_HTML = """<!DOCTYPE html>
             var user = document.getElementById('username').value;
             var pass = document.getElementById('password').value;
             // Toy client-side auth check purely to simulate a gated legacy portal.
-            if (user === 'demo_engineer' && pass === 'Tractian2024') {
+            if (user === 'demo_engineer' && pass === 'company2024') {
                 sessionStorage.setItem('authenticated', 'true');
                 window.location.href = 'dashboard_page1.html';
             } else {

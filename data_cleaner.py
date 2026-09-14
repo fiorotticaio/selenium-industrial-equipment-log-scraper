@@ -26,7 +26,7 @@ import logging
 
 import pandas as pd
 
-logger = logging.getLogger("tractian_scraper")
+logger = logging.getLogger("company_scraper")
 
 STATUS_MAP = {
     "operational": "operational",

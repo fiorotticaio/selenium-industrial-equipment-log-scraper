@@ -44,7 +44,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)-8s | %(message)s",
 )
-logger = logging.getLogger("tractian_scraper")
+logger = logging.getLogger("company_scraper")
 
 DEFAULT_TIMEOUT = 10  # seconds, for every explicit wait
 

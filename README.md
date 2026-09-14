@@ -1,6 +1,5 @@
 # Industrial Equipment Log Scraper — Portfolio Project
 
-A self-contained demo of a real-world "Data Foundry" style pipeline:
 **Selenium extraction from a legacy-style portal → pandas curation →
 clean, structured output.**
 
